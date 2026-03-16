@@ -1,0 +1,66 @@
+
+body{    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 3vh;
+    margin-left: 5vw;
+    padding-top: 20px;
+    padding-left:100;
+    
+
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80vw;
+    font-size: 2vh;
+    text-align: center;
+    
+
+}
+
+.cards{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.card1 {
+    border: 1px gray solid;
+
+}
+
+.card2 {
+    color: white;
+    border: 1px black solid;
+    margin-left: 25px;
+}
+
+.card2:hover{
+      background-color: black;
+}
+
+.card3 {
+    border: 1px gray solid;
+    margin-left: 25px;
+    h2 {
+        background-color: pink;  
+    }
+}
+
+.card4 {
+    border: 2px navy solid;
+    margin-left: 25px;
+    h2 {
+        color: crimson;
+    }
